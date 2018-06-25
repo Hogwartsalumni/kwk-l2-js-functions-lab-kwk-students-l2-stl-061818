@@ -17,7 +17,7 @@ function calculatesFarePrice(start, finish) {
     if (calculatedFeet <= 400) {
       cost = 0;
     } else if (calculatedFeet > 400 && calculatedFeet <= 2000) {
-      cost = Math.abs(calculatedFeet - 400) * 0.2
+      cost = Math.abs(calculatedFeet - 400) * 0.02;
     } else if (calculatedFeet > 2000 && calculatedFeet < 2500) {
       cost = 25;
     } else if (calculatedFeet > 2500) {
