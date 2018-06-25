@@ -12,9 +12,9 @@ function distanceTravelledInFeet(start, finish) {
 }
 
 function calculatesFarePrice(start, finish) {
-  if (distanceTravelledInFeet(start, finish) <= 400) {
-    return 'give customers a free sample';
-  } else if (((distanceTravelledInFeet(start, finish) - 400) * 0.02) > 400) {
-    return 
-  }
+  let cost;
+  calculatedFeet = distanceTravelledInFeet(start, finish);
+    if (calculatedFeet <= 400) {
+      cost = 0;
+    }
 }
